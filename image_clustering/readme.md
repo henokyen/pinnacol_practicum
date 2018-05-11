@@ -1,11 +1,11 @@
-#Content based image clustering:
-##I tried two ways to do this: 
-###Method 1:
+# Content based image clustering:
+## I tried two ways to do this: 
+### Method 1:
 1. Run all images through the pre-trained model to get features. That is run feature_extraction.ipynb
 2. Then do k-means clustering on the extracted features
 3. This method in implemented in image_clutering.ipynb notebook
 
-###Method 2:
+### Method 2:
 A  little bit complex
 1. Take an image and slice it into patches. Do that for all images in the dataset
 2. For each patch from each image compute its color histogram
